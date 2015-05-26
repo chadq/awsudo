@@ -61,6 +61,7 @@ def parseArgs():
 
 def main():
     profile, args = parseArgs()
+
     cleanEnvironment()
     config = Config()
     resolver = CredentialResolver(config, assumeRole)
